@@ -1,0 +1,38 @@
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+  margin: 0 30px 30px 30px;
+}
+
+.blog {
+  display: flex;
+}
+
+.blog-title {
+  color: var(--main-blue);
+  font-weight: 500;
+  margin: 30px;
+}
+
+.blog img {
+  height: 117px;
+}
+
+.blog-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.blog-name {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 16px;
+  align-self: flex-end;
+}
+
+.blog-writer {
+  padding: 0 16px;
+  font-size: 16px;
+}

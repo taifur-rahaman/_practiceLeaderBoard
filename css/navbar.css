@@ -1,8 +1,14 @@
-nav {
-  background-color: var(--navbar-bg);
+header {
+  background-color: var(--main-blue);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  width: 870px;
 }
 
 .logo {
