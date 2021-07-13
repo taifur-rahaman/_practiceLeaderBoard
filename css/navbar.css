@@ -1,0 +1,13 @@
+nav{
+    background-color: var(--navbar-bg);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+
+}
+
+.logo img{
+    width: 40px;
+}
